@@ -134,7 +134,7 @@ nav{
 /* Bulb image and content */
 .cardTwo{
     position: relative;
-    height: 180px;
+    height: 200px;
     width: 320px;
     padding: 10px;
     display: flex;
@@ -151,8 +151,7 @@ nav{
 
 .bulb{
     width: 270px;
-    padding-left: 20px;
-  
+    padding-left: 20px; 
 }
 
 .imgBulb{
@@ -167,6 +166,8 @@ nav{
     width: 270px;
     padding-left: 20px;
 }
+
+/* Line and Circle Design for Card One and Card Two */
 
 .lineOne{
     background-color: #fff;
@@ -186,5 +187,25 @@ nav{
     border-radius: 50%;
     right: 191px;
     top: 11px;
+}
 
+.lineTwo{
+    background-color: #fff;
+    height: 80px;
+    padding: 1px;
+    position: absolute;
+    transform: rotate(90deg); /*to rotate the line by 90 degrees*/  
+    top: 550px;
+    right: 410px;    
+}
 
+.circleTwo{
+    position: relative;
+    background-color: #fff;
+    height: 10px;
+    width: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    right: 300px;
+    top: -82px;
+}
