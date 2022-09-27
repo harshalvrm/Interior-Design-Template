@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 *{
     padding: 0;
     margin:0
@@ -9,8 +10,7 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
-    
+    height: 120vh;
 }
 
 body {
@@ -26,26 +26,30 @@ body {
 nav{
     display: flex;
     justify-content: space-between;
-    
 }
 
 .logo{
-    margin: 30px 0 0 10px;
+    margin: 30px 0 0 20px;
 }
 
 .nav-items{
     display: flex;
     width: 800px;
     justify-content: space-around;
-    
+    margin-right: 70px;    
 }
+
+.nav-item{
+    font-size: 20px;
+}
+
 
 .navbarCall{
     display: flex;
     border-bottom: 3px solid #fff;
     align-items: center;
     height: 100px;
-    margin-right: 50px;
+    margin: 0 70px 0 0;
     font-weight: 800;
   
 }
@@ -62,3 +66,45 @@ nav{
 }
 
 /* Main Section */
+.main_section{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 50px 0 30px
+}
+
+.mainHeading{
+    width: 600px;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Nunito', sans-serif;
+    margin: 150px 0 0 100px;
+}
+
+.learnMore{
+    padding: 20px 30px;
+    border-radius: 50px;
+    border: solid 2px #fff;
+    font-weight: 700;
+    font-size: 25px;
+    background-color: transparent;
+    color: #fff;
+    margin: 50px 0 0 100px;
+    cursor: pointer;
+}
+
+.cardOne{
+    height: 24rem;
+    width: 50rem;
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+}
+
+/* Bulb SVG */
+.cardTwo img{
+    filter: invert(100%) sepia(51%) saturate(2%) hue-rotate(41deg) brightness(107%) contrast(101%);
+}
+
+
