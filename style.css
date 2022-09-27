@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin:0
+    box-sizing: border-box;   
+}
+
+.main-div{
+    background: url(./images/M_retro-living-room-interior-design.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin:0;
+    color: #fff;
+ 
+}
+
+/* Navigation Bar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.logo{
+    margin: 30px 0 0 10px;
+}
+
+.nav-items{
+    display: flex;
+    width: 800px;
+    justify-content: space-around;
+    
+}
+
+.navbarCall{
+    display: flex;
+    border-bottom: 3px solid #fff;
+    align-items: center;
+    height: 100px;
+    margin-right: 50px;
+    font-weight: 800;
+  
+}
+
+.callUs{
+    margin-top: 30px;   
+    display: flex;
+    margin: 30px 0 30px 10px;
+    
+}
+
+.callUs img{
+    filter: invert(100%) sepia(51%) saturate(2%) hue-rotate(41deg) brightness(107%) contrast(101%);
+}
+
+/* Main Section */
