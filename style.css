@@ -37,6 +37,7 @@ nav{
     width: 800px;
     justify-content: space-around;
     margin-right: 70px;    
+    cursor: pointer;
 }
 
 .nav-item{
@@ -51,6 +52,7 @@ nav{
     height: 100px;
     margin: 0 70px 0 0;
     font-weight: 800;
+    
   
 }
 
@@ -58,6 +60,7 @@ nav{
     margin-top: 30px;   
     display: flex;
     margin: 30px 0 30px 10px;
+    cursor: pointer;
     
 }
 
@@ -92,19 +95,68 @@ nav{
     cursor: pointer;
 }
 
-.cardOne{
-    height: 24rem;
-    width: 50rem;
-    align-self: flex-start;
+.right_section{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    position: relative;
+    align-items: flex-end;
 }
 
-/* Bulb SVG */
+/* Puzzle image and content */
+.cardOne{
+    height: 180px;
+    width: 320px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.cardOne img{
+    width: 40px;
+    border-radius: 50px;
+}
+
+.puzzle{
+    width: 270px;
+    padding-left: 20px;
+}
+
+.imgpuzzle{
+    align-self: flex-start;
+    background-color: #fff;
+    padding: 5px 40px;
+    border-radius: 50px;
+    margin: 20px 0 0 30px ;
+    
+}
+
+/* Bulb image and content */
+.cardTwo{
+    height: 180px;
+    width: 320px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.2);    
+}
+
 .cardTwo img{
-    filter: invert(100%) sepia(51%) saturate(2%) hue-rotate(41deg) brightness(107%) contrast(101%);
+    width: 40px;
+    border-radius: 50px;
+}
+
+.bulb{
+    width: 270px;
+    padding-left: 20px;
+  
+}
+
+.imgBulb{
+    align-self: flex-start;
+    background-color: #fff;
+    padding: 5px 40px;
+    border-radius: 50px;
+    margin: 20px 0 0 30px ;
 }
 
 
