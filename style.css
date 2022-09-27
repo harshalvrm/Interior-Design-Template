@@ -80,7 +80,7 @@ nav{
     font-size: 60px;
     font-weight: 800;
     font-family: 'Nunito', sans-serif;
-    margin: 150px 0 0 100px;
+    margin: 80px 0 0 100px;
 }
 
 .learnMore{
@@ -109,6 +109,7 @@ nav{
     display: flex;
     flex-direction: column;
     background-color: rgba(255, 255, 255, 0.2);
+    margin: 50px 100px;
 }
 
 .cardOne img{
@@ -132,12 +133,15 @@ nav{
 
 /* Bulb image and content */
 .cardTwo{
+    position: relative;
     height: 180px;
     width: 320px;
     padding: 10px;
     display: flex;
     flex-direction: column;
-    background-color: rgba(255, 255, 255, 0.2);    
+    background-color: rgba(255, 255, 255, 0.2); 
+    top: 70px;
+    right: 400px;   
 }
 
 .cardTwo img{
@@ -158,5 +162,29 @@ nav{
     border-radius: 50px;
     margin: 20px 0 0 30px ;
 }
+
+.innovation{
+    width: 270px;
+    padding-left: 20px;
+}
+
+.lineOne{
+    background-color: #fff;
+    height: 80px;
+    padding: 1px;
+    position: absolute;
+    top: 372px;
+    right: 250px;    
+}
+
+.circleOne{
+    position: relative;
+    background-color: #fff;
+    height: 10px;
+    width: 10px;
+    padding: 5px;
+    border-radius: 50%;
+    right: 191px;
+    top: 11px;
 
 
