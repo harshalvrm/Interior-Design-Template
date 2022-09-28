@@ -1,68 +1,55 @@
-/* ----------------MEDIA QUERIES--------------------- */
+* ----------------MEDIA QUERIES--------------------- */
 @media screen and (max-width: 1346px) {
     .main-div {
       width: 100%;
     }
   }
 
-@media screen and (min-device-width: 1150px ) and (max-width: 1270px)  {
+@media screen and (min-device-width: 1030px ) and (max-width: 1270px)  {
  
     nav{
-        padding: 10px;
-        margin-left: 80px;    
+        font-size: 10px;
     }
 
     .logo img{
         width: 110px;
         margin: 10px 0 0 50px;
     }
-    
-    .left-section{
-    margin-top: -150px;
-    }
-    
+      
     .nav-items{
-        width: 600px;
-        margin-right: 50px;  
+        width: 700px;
     }
 
     .nav-item{
-        font-size: 15px;
-    }
-
-    .navbarCall{
-        border-bottom: 1.5px solid #fff;
-        font-weight: 600;
+        font-size: 18px;
     }
 
     .mainHeading{
         width: 500px;
         font-size: 50px;
-        margin-left: 150px;
-        
     }
+
     .learnMore{
         padding: 10px 20px;
         font-weight: 500;
         font-size: 20px;
-        margin-left: 150px;
+        
     }
 
+    /* Card One */
     .cardOne{
-        height: 150px;
+        height: 180px;
         width: 200px;
         padding: 10px;
     }
     
     .cardOne img{
-        width: 20px;
-        border-radius: 50px;
+        width: 25px;
     }
 
     .puzzle{
         width: 170px;
-        padding-left: 20px;
-        font-size: 15px;
+        font-size: 16px;
     }
 
     .imgpuzzle{
@@ -70,48 +57,36 @@
         margin: 10px 0 0 20px ;
     }
 
-    .lineOne{
-        top: 360px;
-        right: 250px;
-        }
-
-    .circleOne{
-        right: 190px;
-    }
-    
     .cardTwo{
-        height: 200px;
+        height: 180px;
         width: 200px;
-        margin-top: -150px;
-        right: 350px;
+
     }
     
     .cardTwo img{
         width: 30px;
-        border-radius: 50px;
     }
 
     .imgBulb{
-    padding: 2px 20px;
-    margin: 10px 0 0 20px ;
-    }
-
+        padding: 2px 20px;
+        margin: 10px 0 0 20px ;
+        }
+    
+    
     .innovation{
         width: 170px;
         padding-left: 20px;
-        font-size: 15px;
+        font-size: 16px;
     }
+    
 
-    .lineTwo{
-        top: 450px;
-        right: 360px;    
-    }
-
-    .circleTwo{
-        top: -20px;
-        right: 250px;    
-    }
-
-@media screen and (max-width: 1135px) {
-  
 }
+
+
+
+@media screen and (max-width: 1030px)
+{
+
+    
+}
+
