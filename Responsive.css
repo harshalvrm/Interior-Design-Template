@@ -86,7 +86,111 @@
 
 @media screen and (max-width: 1030px)
 {
+    .main-div{
+    width: 100vw;
+    background-size:auto;
 
+    }
+
+    .logo img{
+        width: 110px;
+        margin: 10px 0 0 20px;
+    }
+      
+    .nav-items{
+        width: 500px;
+    }
+
+    .nav-item{
+        font-size: 12px;
+    }
+
+    .callUs{
+        font-size: 12px;
+    }
+
+    .navbarCall{
+        border-bottom: 1px solid #fff;
+        height: 80px;
+        font-weight: 200;
+    }
+
+    .mainHeading{
+        width: 400px;
+        font-size: 30px;
+    }
+
+    .learnMore{
+        padding: 10px 20px;
+        font-weight: 500;
+        font-size: 15px;
+        
+    }
+
+    /* Card One */
+    .cardOne{
+        height: 120px;
+        width: 150px;
+        
+    }
     
+    .cardOne img{
+        width: 20px;
+    }
+
+    .puzzle{
+        width: 130px;
+        font-size: 12px;
+    }
+
+    .imgpuzzle{
+        padding: 5px 20px;
+        margin: 10px 0 0 20px ;
+    }
+
+    .lineOne{
+        top: 292px;
+        right: 200px;
+    }
+
+    .circleOne{
+        top: 360px;
+        right: 190px;
+    }
+
+    .cardTwo{
+        height: 140px;
+        width: 150px;
+        top: 300px;
+
+    }
+    
+    .cardTwo img{
+        width: 20px;
+    }
+
+    .imgBulb{
+        padding: 2px 20px;
+        margin: 10px 0 0 20px ;
+        }
+    
+    
+    .innovation{
+        width: 130px;
+        font-size: 12px;
+    }
+        
+    .lineTwo{
+        top: 370px;
+        right: 410px;
+    }
+
+    .circleTwo{
+        top: 400px;
+        right: 370px;    }
+
 }
+
+
+
 
