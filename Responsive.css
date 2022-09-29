@@ -223,7 +223,6 @@
 }
 
 
-
 @media screen and (max-width: 803px){
 
     .main_section{
@@ -279,13 +278,46 @@
     }
 
     .lineTwo{
-        right: 368px;
+        right: 490px;
     }
 
     .circleTwo{
-        right: 320px;
+        right: 430px;
+    }
+}
+
+@media screen and (max-width: 571px){
+
+    .cardOne{
+        top: 250px;
+        right: 60px;
     }
 
+    .cardTwo{
+        top: 450px;
+        right: 100px;
+    }
+
+    .lineOne{
+        transform: rotate(90deg);
+        top: 500px;
+        right: 260px;
+    }
+    .circleOne{
+        top: 530px;
+        right: 220px;
+    }
+
+    .lineTwo{
+        right: 370px;
+        top: 310px;
+    }
+
+    .circleTwo{
+        right: 400px;
+        top: 340px;
+    }
 
 }
+
 
