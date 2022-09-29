@@ -13,9 +13,7 @@
     background-position: center;
     background-repeat: no-repeat;
     height: 120vh;
-    position: relative;
-    
-    
+    position: relative; 
 }
 
 body {
@@ -23,7 +21,6 @@ body {
     padding: 0;
     margin:0;
     color: #fff;
- 
 }
 
 /* Navigation Bar */
@@ -64,7 +61,6 @@ nav{
     display: flex;
     margin: 30px 0 30px 10px;
     cursor: pointer;
-    
 }
 
 .callUs img{
