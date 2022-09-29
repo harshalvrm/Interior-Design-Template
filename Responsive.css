@@ -187,7 +187,8 @@
 
     .circleTwo{
         top: 400px;
-        right: 370px;    }
+        right: 370px;
+    }
 
 }
 
@@ -223,6 +224,68 @@
 
 
 
-@media screen and (max-width: 815px){
+@media screen and (max-width: 803px){
+
+    .main_section{
+    display: flex;
+    flex-direction: column;
+              
+    }
+
+    .nav-items{
+        
+        flex-wrap: wrap;
+        height: 70px;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        margin-right: 20px;    
+    }
+
+    .left-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .mainHeading{
+        width: auto;
+        margin: 50px 0 0 100px;
+        font-size: 25px;
+    }
+
+    .learnMore{
+        font-weight: 300;
+        font-size: 12px;
+        margin-top: 5px;      
+    }
+
+    .cardOne{
+        right: 30px;
+    }
+
+    .cardTwo{
+        left: 100px;
+    }
+
+    .lineOne{
+        top: 420px;
+    }
+
+    .circleOne{
+        top: 490px;
+    }
+
+    .lineTwo{
+        right: 368px;
+    }
+
+    .circleTwo{
+        right: 320px;
+    }
+
 
 }
+
