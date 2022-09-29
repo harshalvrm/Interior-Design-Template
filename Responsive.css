@@ -192,5 +192,37 @@
 }
 
 
+@media screen and (max-width: 930px){
+    .nav-items{
+        width: 280px;
+        
+    }
+
+    .navbarCall{
+        justify-content:center ;
+        margin-right: 180px;
+    }
+
+    .callUs{
+        font-size: 8px;
+    }
+
+    .cardTwo{
+        right: 220px;
+    }
+    
+    .lineTwo{
+        right: 430px;
+    }
+
+    .circleTwo{
+        top: 400px;
+        right: 470px;    }
+
+}
 
 
+
+@media screen and (max-width: 815px){
+
+}
